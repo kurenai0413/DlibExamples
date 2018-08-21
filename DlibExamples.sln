@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DlibExamples", "DlibExamples\DlibExamples.vcxproj", "{CF2275FF-B6E4-41A9-99B4-299844ECFA56}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "face_landmark_detection_ex", "face_landmark_detection_ex\face_landmark_detection_ex.vcxproj", "{FCBF0C1A-01D9-4A64-A85E-F66177A99418}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webcam_face_pose_ex", "webcam_face_pose_ex\webcam_face_pose_ex.vcxproj", "{DA74787F-721E-44B1-BDB1-642E79FC39DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "face_detection_ex", "face_detection_ex\face_detection_ex.vcxproj", "{ED5165BF-6062-4CD6-9F68-42EEB35914A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +17,30 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CF2275FF-B6E4-41A9-99B4-299844ECFA56}.Debug|x64.ActiveCfg = Debug|x64
-		{CF2275FF-B6E4-41A9-99B4-299844ECFA56}.Debug|x64.Build.0 = Debug|x64
-		{CF2275FF-B6E4-41A9-99B4-299844ECFA56}.Debug|x86.ActiveCfg = Debug|Win32
-		{CF2275FF-B6E4-41A9-99B4-299844ECFA56}.Debug|x86.Build.0 = Debug|Win32
-		{CF2275FF-B6E4-41A9-99B4-299844ECFA56}.Release|x64.ActiveCfg = Release|x64
-		{CF2275FF-B6E4-41A9-99B4-299844ECFA56}.Release|x64.Build.0 = Release|x64
-		{CF2275FF-B6E4-41A9-99B4-299844ECFA56}.Release|x86.ActiveCfg = Release|Win32
-		{CF2275FF-B6E4-41A9-99B4-299844ECFA56}.Release|x86.Build.0 = Release|Win32
+		{FCBF0C1A-01D9-4A64-A85E-F66177A99418}.Debug|x64.ActiveCfg = Debug|x64
+		{FCBF0C1A-01D9-4A64-A85E-F66177A99418}.Debug|x64.Build.0 = Debug|x64
+		{FCBF0C1A-01D9-4A64-A85E-F66177A99418}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCBF0C1A-01D9-4A64-A85E-F66177A99418}.Debug|x86.Build.0 = Debug|Win32
+		{FCBF0C1A-01D9-4A64-A85E-F66177A99418}.Release|x64.ActiveCfg = Release|x64
+		{FCBF0C1A-01D9-4A64-A85E-F66177A99418}.Release|x64.Build.0 = Release|x64
+		{FCBF0C1A-01D9-4A64-A85E-F66177A99418}.Release|x86.ActiveCfg = Release|Win32
+		{FCBF0C1A-01D9-4A64-A85E-F66177A99418}.Release|x86.Build.0 = Release|Win32
+		{DA74787F-721E-44B1-BDB1-642E79FC39DE}.Debug|x64.ActiveCfg = Debug|x64
+		{DA74787F-721E-44B1-BDB1-642E79FC39DE}.Debug|x64.Build.0 = Debug|x64
+		{DA74787F-721E-44B1-BDB1-642E79FC39DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA74787F-721E-44B1-BDB1-642E79FC39DE}.Debug|x86.Build.0 = Debug|Win32
+		{DA74787F-721E-44B1-BDB1-642E79FC39DE}.Release|x64.ActiveCfg = Release|x64
+		{DA74787F-721E-44B1-BDB1-642E79FC39DE}.Release|x64.Build.0 = Release|x64
+		{DA74787F-721E-44B1-BDB1-642E79FC39DE}.Release|x86.ActiveCfg = Release|Win32
+		{DA74787F-721E-44B1-BDB1-642E79FC39DE}.Release|x86.Build.0 = Release|Win32
+		{ED5165BF-6062-4CD6-9F68-42EEB35914A0}.Debug|x64.ActiveCfg = Debug|x64
+		{ED5165BF-6062-4CD6-9F68-42EEB35914A0}.Debug|x64.Build.0 = Debug|x64
+		{ED5165BF-6062-4CD6-9F68-42EEB35914A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED5165BF-6062-4CD6-9F68-42EEB35914A0}.Debug|x86.Build.0 = Debug|Win32
+		{ED5165BF-6062-4CD6-9F68-42EEB35914A0}.Release|x64.ActiveCfg = Release|x64
+		{ED5165BF-6062-4CD6-9F68-42EEB35914A0}.Release|x64.Build.0 = Release|x64
+		{ED5165BF-6062-4CD6-9F68-42EEB35914A0}.Release|x86.ActiveCfg = Release|Win32
+		{ED5165BF-6062-4CD6-9F68-42EEB35914A0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
